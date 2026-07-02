@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dip4inpe" 
+version = "0.1.0"
+description = "Digital Image Processing tools for INPE's satellites"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = 'Thales Sehn Korting', email = 'thales.korting@inpe.br'}]
+keywords = ['image processing', 'cbers-4', 'cbers-4a', 'amazonia-1', 'mux', 'wpm', 'wfi', 'pan', 'charter']
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/tkorting/dip4inpe"
+"Repository" = "https://github.com/tkorting/dip4inpe.git"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/"]
