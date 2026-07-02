@@ -1,1 +1,3 @@
-# dip4inpe
+# dip4inpe: Digital Image Processing for INPE remote sensing satellites
+
+This site presents an operational image processing workflow developed by INPE to support The International Charter: Space and Major Disasters (the _Charter_). The workflow, implemented in the open-source Python library *dip4inpe* (Digital Image Processing for INPE remote sensing satellites), generates analysis-ready Earth-Observation (EO) satellite images used to derive information supporting disaster relief organizations in protecting lives, property, infrastructure, and the environment. Its operational application (as of July 2026) enabled the delivery of more than 13,000 images (37% CBERS-4, 55% CBERS-4A, and 8% AMAZONIA-1) to support approximately 350 disasters, including major disasters in South America.
